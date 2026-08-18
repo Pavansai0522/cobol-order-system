@@ -1,0 +1,12 @@
+# Sample Customer Master Records (display / fixed-width layout)
+# Positions map to CUSTREC.cpy logical fields (COMP-3 shown as zoned for readability)
+# CUST-ID(10) NAME(40) ADDR1(40) ADDR2(40) CITY(25) ST(2) ZIP(10) PHONE(15) STATUS(1)
+# CREDIT-LIMIT(11) CURRENT-BAL(11) YTD-ORDERS(9) LAST-ORD(8) OPEN-DT(8) SALES-REP(8)
+#
+# Status: A=Active I=Inactive H=Credit Hold
+#
+001CUST001ACME RETAIL CORP                      100 MAIN STREET                         SUITE 200                               SPRINGFIELD               IL62701     2175550100     A00000500000000000125000000087502024011520200115REP00001
+002CUST002BETA SUPPLIES INC                     500 INDUSTRIAL PKWY                     BLDG C                                  AUSTIN                   TX78701     5125550200     A00001000000000000450000000210002025030120190301REP00002
+003CUST003GAMMA HOLDINGS LLC                    88 CREDIT LANE                                                  CHICAGO                   IL60601     3125550300     H00000250000000000280000000032002023120120180615REP00003
+004CUST004DELTA INACTIVE CO                     12 CLOSED ROAD                                                  MIAMI                    FL33101     3055550400     I00000100000000000000000000005002022010120170101REP00004
+005CUST005EPSILON BIG BUYER                     1 ENTERPRISE WAY                        FLOOR 40                                NEW YORK                 NY10001     2125550500     A00005000000000001200000000850002026010120150101REP00005
